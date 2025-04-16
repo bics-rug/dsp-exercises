@@ -5,12 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "boilerplot @ git+https://github.com/fehlings/boilerplot.git",
     "ipykernel>=6.29.5",
     "matplotlib>=3.7.5",
     "numpy>=1.24.4",
     "scipy>=1.10.1",
 ]
-
-[tool.uv.sources]
-boilerplot = { git = "https://github.com/fehlings/boilerplot.git" }
